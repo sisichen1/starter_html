@@ -1,0 +1,16 @@
+body > a:first-child{
+    position:absolute;
+    top:-40px;
+}
+body > a:first-child:focus{
+    top:0px;
+}
+.current{
+    color:blue;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5px;  
+    width:100%;
+}
