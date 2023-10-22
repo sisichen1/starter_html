@@ -46,11 +46,10 @@ nav ul li{
     font-size: 16px;
 }
 
-nav ul li:hover,
 nav .current a{
     font-size: 20px;
     text-decoration:underline wavy;
-    text-underline-offset: 6px;
+    text-underline-offset: 2px;
     color:#113946;
 }
 nav a{
@@ -288,6 +287,9 @@ span{
    padding:0 20px 0 20px;
    margin: 40px;
    gap:5%;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
 
 
 }
@@ -295,7 +297,8 @@ span{
     width:100%;
     aspect-ratio: 1/1;
     object-fit: cover;
-    justify-items: center;
+    
+
 
 }
 
