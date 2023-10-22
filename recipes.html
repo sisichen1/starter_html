@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Recipes</title>
 </head>
 <body>
-    <a href = "#main">Skip to Main Content</a>
+    <div class = "skip"><a href = "#main_recipes">Skip to Main Content</a></div>
     <header>
         <nav>
 			<ul>
 				<li><a href = "index.html" >Pets</a></li>
 				<li><a href = "travel.html">Travel</a></li>
-				<li><a href = "recipes.html">Recipes</a></li>
+				<li class = "current"><a href = "recipes.html">Recipes</a></li>
 			</ul>
 		</nav>
     </header>
 
-    <main id="main">
-        <div>
+    <main id="main_recipes">
+        <h1>Recipe Hub</h1>
+        <div class = "recipes_container">
+            <div class="recipes_content">
             <h2>Coca-Cola Chicken Wings</h2>
             <span>Origin: China</span>
             <span>Source: Family Recipe</span>
             <span>Category: Main Dish</span>
 
-        <img src="images/coca_cola_chicken_wings.jpg" width = "400" alt="Coca cola chicken wings">
+        <img class = "recipes_firstimage" src="images/coca_cola_chicken_wings.jpg" width = "400" alt="Coca cola chicken wings">
         <p>I learnt how to cook Coca-Cola chicken wings from my mother, and I've since tweaked her recipe to better suit my family's palate, making it less sweet. While the cooking process remains straightforward, the result is incredibly flavorful, and once you've tried it, you'll understand its delicious appeal!</p>
+        </div>
         <h3>Recipe Ingredients</h3>
         <ul>
             <li>Chicken wings</li>
@@ -37,7 +41,7 @@
             <li>A can of coke</li>
         </ul>
 
-        <h3>Recipe Steps</h3>
+        <h3 class=>Recipe Steps</h3>
         <ol>
             <li>Wash and place chicken wings in a bowl</li>
             <li>Add scallions, ginger slices, cooking wine, dark soy sauce and salt to the washed chicken wings, and mix them well</li>
@@ -49,21 +53,25 @@
         </ol>
 
         <h3>Additional Food images</h3>
+        <div class = "recipes_card">
         <img src="images/chicken_wings_chopsticks.jpg" width = "200" alt="A chicken wing picked up by chopsticks">
         <img src="images/boils_in_coke.jpg" width = "200" alt="Chicken wings boiled in coke">
         <img src="images/chicken-wings_and_rice_cake.jpg" width = "200" alt="Coca-cola chicken wings served with rice cake">
-
+        </div>
+        </div>
         <!-- Sisi Chen -->
 
     </div>
-    <div>
+    <div class = "recipes_container">
+        <div class="recipes_content">
         <h2>Chinese Dumplings</h2>
         <span>Origin: China</span>
         <span>Source: Family Recipe</span>
         <span>Category: Main Dish</span>
 
-        <img src="images/jiaozi.jpeg" width = "400" alt="Chinese dumplings">
+        <img class = "recipes_firstimage" src="images/jiaozi.jpeg" width = "400" alt="Chinese dumplings">
         <p>Chinese dumplings (Jiaozi, 饺子) are stuffed parcels made of unleavened dough and savoury fillings consisting of minced ingredients like meat, egg, tofu, or vegetables. They can be boiled, pan-fried or steamed.</p>
+        </div>
         <h3>Recipe Ingredients</h3>
         <ul>
             <li>Dumpling Wrappers</li>
@@ -86,20 +94,24 @@
         </ol>
 
         <h3>Additional Food images</h3>
+        <div class = "recipes_card">
         <img src="images/jiaozi4.jpeg" width = "200" alt="Making Chinese dumplings">
         <img src="images/jiaozi2.jpeg" width = "200" alt="Three dishes of Chinese dumplings">
         <img src="images/jiaozi3.jpeg" width = "200" alt="Steamed Chinese dumplings">
-
+        </div>
+        </div>
         <!-- Meiqi Zhao -->
     </div>
-    <div>
+    <div class = "recipes_container">
+        <div class="recipes_content">
         <h2>Chicken Curry</h2>
         <span>Origin: Japan</span>
         <span>Source: Family Recipe</span>
         <span>Category: Main Dish</span>
 
-        <img src="images/japanese-chicken-curry.jpg" width = "400" alt="Japanese Chicken Curry">
+        <img class = "recipes_firstimage" src="images/japanese-chicken-curry.jpg" width = "400" alt="Japanese Chicken Curry">
         <p>Unlike Indian or Thai curry, Japanese curry is more savory than spicy. It’s an exemplary comfort food and one of the most-loved home-cooked dishes in Japan.</p>
+        </div>
         <h3>Recipe Ingredients</h3>
         <ul>
             <li>Skinless, boneless chicken breast</li>
@@ -125,20 +137,24 @@
         </ol>
 
         <h3>Additional Food images</h3>
+        <div class = "recipes_card">
         <img src="images/cooking-chicken-curry.webp" width = "200" alt="Cooking chicken curry">
         <img src="images/japanese-chicken-curry-bowl.jpeg" width = "200" alt="Japanese chicken curry bowl">
         <img src="images/chicken-curry-udon.webp" width = "200" alt="Chicken curry udon">
-
+        </div>
+        </div>
         <!-- Zhehong Wu -->
     </div>
-    <div>
+    <div class = "recipes_container">
+        <div class="recipes_content">
         <h2>Guacamole</h2>
         <span>Origin: Mexican</span>
         <span>Source: Family Recipe</span>
         <span>Category: Appetizer</span>
 
-        <img src="images/guacamole.jpg" width = "400" alt="Guacamole">
+        <img class = "recipes_firstimage" src="images/guacamole.jpg" width = "400" alt="Guacamole">
         <p>Guacamole is a Mexican dip made from mashed avocados, tomatoes, onions, cilantro, lime juice, and chili pepper, creating a creamy, zesty, and versatile condiment often enjoyed with tortilla chips, tacos, and more.</p>
+        </div>
         <h3>Recipe Ingredients</h3>
         <ul>
             <li>Avocado</li>
@@ -158,21 +174,26 @@
         </ol>
 
         <h3>Additional Food images</h3>
+        <div class = "recipes_card">
         <img src="images/avocado_chips.jpg" width = "200" alt="Chips and guacamole">
         <img src="images/taco.jpg" width = "200" alt="Guacamole in a taco">
         <img src="images/guacamole_2.jpg" width = "200" alt="Guacamole in a bowl">
+        </div>
+        </div>
 
         <!-- Yiran Zheng -->
 
     </div>
-    <div>
+    <div class = "recipes_container">
+        <div class="recipes_content">
         <h2>BLAT Sandwich</h2>
         <span>Origin: America</span>
         <span>Source: Family Recipe</span>
         <span>Category: Main Dish</span>
 
-        <img src="images/blat_main.png" width = "400" alt="BLAT Sandwich">
+        <img class = "recipes_firstimage" src="images/blat_main.png" width = "400" alt="BLAT Sandwich">
         <p>A BLAT sandwich is a delicious twist on the classic BLT, featuring crispy bacon, fresh lettuce, ripe tomatoes, and creamy avocado, all sandwiched between slices of bread for a satisfying blend of flavors and textures.</p>
+        </div>
         <h3>Recipe Ingredients</h3>
         <ul>
             <li>Avocado</li>
@@ -191,9 +212,12 @@
         </ol>
 
         <h3>Additional Food images</h3>
+        <div class = "recipes_card">
         <img src="images/ingredients.jpg" width = "200" alt="Ingredients of BLAT sandwich">
         <img src="images/blat_2.jpg" width = "200" alt="A BLAT sandwich is placed on a dish">
         <img src="images/blat_3.jpg" width = "200" alt="A BLAT sandwich is made with multigrain bread">
+        </div>
+        </div>
 
         <!-- Yiran Zheng -->
 
