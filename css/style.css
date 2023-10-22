@@ -22,7 +22,7 @@ body > a:first-child:focus{
 nav{
     background-color: #FFF2D8;
     width:100%;
-    padding: 10px;
+    padding: 2%;
     margin:0;
     top:0;
     position:fixed;
@@ -66,8 +66,8 @@ h1{
     text-align: center;
     background-color: #113946;
     border-radius: 20px;
-    padding:0 20px 0 20px;
-    margin: 10%;
+
+    margin: 20% 10% 2% 10%;
     color:#FFF2D8;
     padding:10px;
     font-family:'Times New Roman', Times, serif;
@@ -82,11 +82,13 @@ h2{
     color:#94754b;
     margin-bottom: 15px;
     font-family:'Proxima Nova',sans-serif;
+    margin-top: 5%;
 
 }
 h3{
     text-align:center;
-    font-size: 30px;
+    font-size: 24px;
+    line-height: 1.3;
     padding: 30px;
     margin-top: 8%;
     color:#0c4759;
@@ -131,6 +133,7 @@ p{
     grid-template-columns: 1fr 1fr;
     gap:20px;
     justify-items: center;
+    gap:10%;
 }
 .pets_gallery img,
 .pets_gallery video{
@@ -154,7 +157,8 @@ p{
 }
 .pets_container ul li{
     font-size: 20px;
-    display:inline;
+    display:block;
+    line-height: 1.3;
     margin: 0 10px;
     color:#113946;
     font-family: 'Proxima Nova',sans-serif;
@@ -171,6 +175,7 @@ p{
     padding:0 5px 0 5px;
     margin: 10px;
 }
+
 .travel_container{
     margin:100px auto;
     width:75%;
@@ -181,6 +186,7 @@ p{
    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
    padding:0 20px 0 20px;
    margin: 40px;
+
 }
 .travel_card{
     aspect-ratio: 1/1.5;
@@ -209,6 +215,7 @@ p{
     grid-template-columns: 1fr 1fr;
     gap:20px;
     justify-items: center;
+    gap:10%;
 }
 .travel_firstimage img{
     aspect-ratio: 1/1;
@@ -226,11 +233,13 @@ p{
 
 /*recipes*/
 span{
-    display:inline;
+    display:block;
     font-weight: bold;
     font-size: 24px;
     color: #113946;
     padding:0 20px 0 20px;
+    line-height: 1.3;
+    margin-bottom: 2%;
 
 }
 .recipes_container{
@@ -278,6 +287,7 @@ span{
    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
    padding:0 20px 0 20px;
    margin: 40px;
+   gap:5%;
 
 
 }
