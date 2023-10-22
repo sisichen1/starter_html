@@ -42,19 +42,21 @@ nav ul{
 
 nav ul li{
     display:inline;
-    margin-right:60px;
+   /* margin-right:60px;*/
     font-size: 16px;
 }
 
 nav .current a{
     font-size: 20px;
-    text-decoration:underline wavy;
+    text-decoration:underline;
     text-underline-offset: 2px;
     color:#113946;
 }
 nav a{
     text-decoration: none;
     color:#113946;
+    padding: auto;
+    margin-right: 30px;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 
